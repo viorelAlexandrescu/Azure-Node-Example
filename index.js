@@ -2,7 +2,8 @@ const app = require("express")(),
       port = 5000;
 
 function getRoot(request, response) {
-    response.end("Hello World! From Node, in Azure!");
+    response.send("Hello World! From Node, in Azure!");
+    response.end();
 };
       
 app.get('/', getRoot);
