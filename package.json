@@ -1,0 +1,27 @@
+{
+  "name": "node-azure-service",
+  "version": "1.0.0",
+  "description": "Node Azure Service Examplke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viorelAlexandrescu/Azure-Node-Example.git"
+  },
+  "keywords": [
+    "Node",
+    "Azure",
+    "Example"
+  ],
+  "author": "Viorel Alexandrescu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/viorelAlexandrescu/Azure-Node-Example/issues"
+  },
+  "homepage": "https://github.com/viorelAlexandrescu/Azure-Node-Example#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
